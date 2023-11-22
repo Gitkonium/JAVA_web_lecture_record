@@ -1,6 +1,6 @@
 package day002_e;
 
-public class createStar 
+public class CreateStar 
 {
 
 	public static void main(String[] args) 
