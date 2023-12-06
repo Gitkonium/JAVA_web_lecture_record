@@ -1,0 +1,151 @@
+[ 추상클래스 & 인터페이스 ]
+추상클래스가 어떻게 등장했는가 ???
+	기존에 이미 많은 자식 클래스들이 있었는데,
+	이들의 부모 클래스가 없어서
+	부모 클래스를 정의하기위해 탄생
+ ▶ 객체를 정의하는데에는 관심 xxx
+	객체 생성이 불가능
+	ex) [추상]포켓몬-[추상]전기,물-피카츄,꼬부기
+	ex) [추상]챔피언-티모,아리,아무무,...
+	ex) [추상]모양-원,네모,세모,별,...
+	ex) [추상]동물-강아지,고양이,사슴,알파카,...
+	ex) 사람-학생,직원
+ ▶ 클래스를 정의하는데에 관심이 있음 !!!!!!!
+
+추상클래스를 사용하는 이유
+① 객체화를 막기 위함
+② 추상메서드를 사용하기 위함
+	▶ 메서드 오버라이딩 강제
+
+
+
+포켓몬 클래스가 있습니다.
+
+전기 클래스가 있습니다.
+
+피카츄 클래스가 있습니다.
+라이츄 클래스가 있습니다.
+
+main(){
+	피카츄 p1=new 피카츄(); // 피카츄 Lv.5
+	피카츄 p2=new 피카츄(11); // 피카츄 Lv.11
+	라이츄 p3=new 라이츄(); // 라이츄 Lv.5
+	p1.attack(); // 백만볼트!!!
+	p3.attack(); // 백만볼트!!!
+	p1.hello(); // 피카피카
+	p3.hello(); // 라이라이
+}
+
+Q1. 추상클래스는 몇개일까요?
+모든 전기 클래스 타입들의 attack()은 백만볼트!!! 입니다.
+각각의 포켓몬들은 울음소리가 다릅니다.
+Q2. 추상메서드는 몇개일까요?
+
++++++++++++++++++++++
+캐릭터
+	탱커 100/200/200
+		라인하르트
+		자리야
+	딜러 200/50/100
+		리퍼
+		메이
+	힐러 50/100/50
+		메르시
+		아나
+캐릭터는...
+	이름
+	공격력
+	방어력
+	체력
+	대사()
+	공격()
+	힐러만 치유()
+abstract Character
+	String name
+	int offense
+	int defense
+	int hp
+		Character(String name,int offense,int defense,int hp)
+			this.name=name;
+			this.offense=offense;
+			this.defense=defense;
+			this.hp=hp;
+	hello()
+	attack()
+abstract Tank extends Character
+	Tank(String name)
+			super(name,100,200,200);
+		this.offense=100;
+		this.defense=200;
+		this.hp=200;
+abstract Deal extends Character
+	Deal()
+		this.offense=200;
+		this.defense=50;
+		this.hp=100;
+abstract Heal extends Character
+	Heal()
+		this.offense=50;
+		this.defense=100;
+		this.hp=50;
+	healing()
+Reinhardt extends Tank
+	Reinhardt()
+			super("라인하르트");
+		this.name="라인하르트";
+Zarya extends Tank
+	Zarya()
+		this.name="자리야";
+Reaper extends Deal
+	Reaper()
+Mei extends Deal
+	Mei()
+Mercy extends Heal
+	Mercy()
+Ana extends Heal
+	Ana()
+main()
+	Reinhardt  r=new Reinhardt();
++++++++++++++++++++++
+
+
+
+이번 스토리에서 부족했던 부분
+필요하다고 느끼는 것
+
+"메서드 시그니쳐를 통일한다면 어땠을까?"
+
+1. 짱센 회사가 나와서
+	TV
+KimTV extends TV
+SamsungTV extends TV
+LgTV extends TV
+ → 1. 부모 클래스와 자식 클래스의 멤버변수 설정범위 등을 결정하기가 어려움
+ → 2. 짱센 회사 <<< ???????
+
+2. 메서드 시그니쳐를 ~~~게 작성하자. 합의해서
+	"인터페이스"화 하여 활용 ★
+
+★ 인터페이스
+ 1. 클래스가 아님
+ 2. 갖고있는 모든 메서드가 public abstract 추상메서드 => 메서드 오버라이딩 강제
+ 3. implements 키워드를 사용
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
