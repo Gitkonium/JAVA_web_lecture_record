@@ -2494,3 +2494,483 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:49:30.285
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:49:37.872
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:49:51.585
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:49:51.590
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:02.105
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:02.111
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:02.147
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:05.366
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:05.373
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:05.654
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:05.662
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:05.882
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:05.889
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:06.176
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:06.183
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:06.501
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:06.507
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:06.794
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:06.799
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:07.298
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:07.305
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:17.034
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:24.897
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.debug 4 4 2023-12-10 18:54:27.517
+!MESSAGE Error while evaluating 'Array' logical structure for type java.util.Collection with the value 'return toArray();'
+!STACK 0
+java.lang.IllegalStateException: The method toArray() is undefined for the type Collection___
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.log(JavaLogicalStructure.java:200)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure$EvaluationBlock.evaluate(JavaLogicalStructure.java:149)
+	at org.eclipse.jdt.internal.debug.core.logicalstructures.JavaLogicalStructure.getLogicalStructure(JavaLogicalStructure.java:323)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache$LogicalStructureTypeCache.getLogicalStructure(LogicalStructureCache.java:144)
+	at org.eclipse.debug.internal.ui.views.variables.LogicalStructureCache.getLogicalStructure(LogicalStructureCache.java:57)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:215)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getLogicalValue(VariableContentProvider.java:114)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getValueChildren(VariableContentProvider.java:132)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:77)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getAllChildren(JavaVariableContentProvider.java:144)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:48)
+	at org.eclipse.jdt.internal.debug.ui.variables.JavaVariableContentProvider.getChildCount(JavaVariableContentProvider.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:126)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
