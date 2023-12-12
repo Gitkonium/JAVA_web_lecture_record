@@ -1,0 +1,86 @@
+자료형이 없어서 개발자가 직접 만든 클래스
+DTO, VO
+JAVA는 2개이상의 값을 특히 return 할수없기때문에,
+	여러개의 값을 들고다닐목적으로 만든 클래스의 객체다. 이런 뜻!
+
+이런 DTO들을 CRUD해주는 클래스가 있다!  ex) StudentModel
+DAO
+JAVA에서 DB와 연결이 되는 부분을 담당하는 클래스의 객체다. 이런 뜻!
+
+네이버
+	MemberDTO
+	MemberDAO : CRRUD
+	ProductDTO
+	ProductDAO : CRRUD
+	BoardDTO
+	BoardDAO : CRRUD ▶ 5개의 메서드
+			insert,update,delete,selectAll,selectOne
+					getAll,getOne
+			boolean insert(DTO dto)
+			boolean update(DTO dto)
+			boolean delete(DTO dto)
+			ArrayList<DTO> selectAll(DTO dto)
+			DTO selectOne(DTO dto)
+
+[ 이름변경 ]
+update() 메서드 오버로딩으로 해결하면,
+	기능변경시 실수가 자주 발생하기때문에
+	현업에서 사용되지않는 방법임
+메서드를 오버로딩하여 여러개를 작성하면
+	응집도가 낮아짐
+	유지보수에 불리한 코드
+좋은 코드란?
+	유지보수가 용이한 코드 << ★
+	낮은 결합도 ☆
+	높은 응집도 ☆
+	 : 하나의 기능을 하나의 메서드에서 처리할 수 있게 코드를 구성하는 것
+Ver 1은 결합도가 높은 코드
+	 : 코드에 변경사항이 발생했을때, 함께 바꿔야하는 코드가 많은 경우를 의미함
+Ver 2
+	DAO의 CRUD 메서드 시그니쳐 인자값을 DTO로 고정
+	결합도가 낮아짐 ! :D
+	유지보수에 용이한 코드가 되었다!!!
+
+Ver 3
+점수로 검색
+	점수입력 >> 60
+	1002번 ㅇㅇㅇ학생 65점
+	1005번 ㅇㅇㅇ학생 100점
+이름으로 검색
+ 1-1) 이름입력 >> 아나
+	1003번 아나학생 11점
+	1004번 오리아나학생 12점
+ 1-2) 이름입력 >> 모
+	1005번 티모학생 11점
+	1006번 모르가나학생 12점
+ 2) 이름입력 >> 아나
+	1003번 아나학생 11점
+
+
+
+※※※※※※※※※※
+NPE : "주어"가 없어서 발생하는 이슈
+	메서드 수행 주체
+if(studentDTO.getSearchCondition().equals("점수검색")) {
+studentDTO 가 없거나, ▶ CTRL에서 책임지고 new 해주기때문에, 100%로 문제아님!
+studentDTO.getSearchCondition() 가 없는 상황 !
+	1) getSearchCondition() 할때, NPE가 발생하지않도록 값을 주거나,
+	2) if문 순서를 변경
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
