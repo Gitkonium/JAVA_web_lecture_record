@@ -7,8 +7,10 @@
 - JDK Development Kit
   - 버전 : 17.0.9
 - Oracle
-  - 11g Express Edition 
-
+  - 버전 : 11g Express Edition
+- Tomcat
+  - 버전 : 9.0.84  
+ 
 ## 에디터
 - Eclipse IDE for Enterprise Java and Web Developers
   - 버전 : 2023-09-R
