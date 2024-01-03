@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>문제풀이</title>
+</head>
+<body>
+	<script>
+		var randNum=Math.floor(Math.random() * 100) + 1;
+		alert(randNum);
+		
+		var MIN=1;
+		var MAX=100;
+		var cnt=0;
+		while(true){
+			var ansNum=prompt(MIN+'~'+MAX+' UP? DOWN?');
+			if(isNaN(ansNum)){
+				alert('정수만 입력해주세요!~~');
+				continue;
+			}
+			if(ansNum<MIN || MAX<ansNum){
+				alert('????? 다시 ㄱㄱ');
+				continue;
+			}
+		
+			ansNum=parseInt(ansNum);
+			cnt++;
+			if(randNum==ansNum){
+				break;
+			}
+			else if(randNum<ansNum){
+				alert('DOWN');
+				MAX=ansNum-1;
+			}
+			else{
+				alert('UP');
+				MIN=ansNum+1;
+			}
+		}
+		
+		document.write("정답입니다! :D <br>");
+		document.write(cnt+"번만에 맞추셨습니다! :D");
+	</script>
+</body>
+</html>

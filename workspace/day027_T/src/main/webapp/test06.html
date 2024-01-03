@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이벤트 등록 01</title>
+<style>
+	#box {
+		background-color: lightcoral;
+		cursor: pointer;
+		width: 50px;
+	}
+</style>
+</head>
+<body>
+
+<script>
+	window.onload = function(){
+		var box=document.getElementById('box');
+		box.onclick = function(){
+			window.open('https://www.naver.com/');
+		};
+		
+		var list=document.querySelectorAll('#box1 > ul > li');
+		list[0].style.backgroundColor='lightblue';
+		list[1].style.backgroundColor='lightblue';
+	};
+</script>
+
+<div id="box">클릭</div>
+
+<hr>
+
+<div id="box1">
+	<ul>
+		<li>베스트상품</li>
+		<li>신상품</li>
+	</ul>
+</div>
+<div id="box2">
+	<ul>
+		<li>후드티</li>
+		<li>반팔티</li>
+		<li>운동화</li>
+	</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

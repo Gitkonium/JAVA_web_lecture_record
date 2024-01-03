@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>문제 풀이</title>
+</head>
+<body>
+	
+	<script>
+		while(true){
+			var ans=prompt('나이를 입력하세요.');
+			console.log('ans의 자료형 : '+typeof ans);
+			if(0<ans && ans<=120){
+				break;
+			}
+			alert('1~120 사이의 값으로 입력하세요!');
+		}
+		
+		var money=0;
+		if(8<ans && ans<20){
+			money=1200;
+		}
+		else if(20<=ans && ans<=65){
+			money=2000;
+		}
+		document.write(money+'원입니다.');
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>예제</title>
+</head>
+<body>
+	<script>
+		window.onload = function(){
+			document.joinForm.onsubmit = function(){
+				if(!joinForm.mid.value){
+					alert('아이디를 입력해주세요!');
+					joinForm.mid.focus();
+					return false;
+				}
+				if(!joinForm.mpw.value){
+					alert('비밀번호를 입력해주세요!');
+					joinForm.mpw.focus();
+					return false;
+				}
+			};
+		};
+	</script>
+	
+	<form name="joinForm" action="다음페이지" method="POST">
+		아이디 : <input type="text" name="mid"> <br>
+		비밀번호 : <input type="password" name="mpw"> <br>
+		<input type="submit" value="회원가입">
+	</form>
+
+</body>
+</html>
