@@ -160,7 +160,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="day030_T_2" path="/day030_T_2" reloadable="true" source="org.eclipse.jst.jee.server:day030_T_2"/><Context docBase="day030_E" path="/day030_E" reloadable="true" source="org.eclipse.jst.jee.server:day030_E"/><Context docBase="day031_E" path="/day031_E" reloadable="true" source="org.eclipse.jst.jee.server:day031_E"/><Context docBase="day032_T" path="/day032_T" reloadable="true" source="org.eclipse.jst.jee.server:day032_T"/><Context docBase="day032_E" path="/day032_E" reloadable="true" source="org.eclipse.jst.jee.server:day032_E"/></Host>
+      <Context docBase="day030_T_2" path="/day030_T_2" reloadable="true" source="org.eclipse.jst.jee.server:day030_T_2"/><Context docBase="day030_E" path="/day030_E" reloadable="true" source="org.eclipse.jst.jee.server:day030_E"/><Context docBase="day031_E" path="/day031_E" reloadable="true" source="org.eclipse.jst.jee.server:day031_E"/><Context docBase="day032_T" path="/day032_T" reloadable="true" source="org.eclipse.jst.jee.server:day032_T"/><Context docBase="day032_E" path="/day032_E" reloadable="true" source="org.eclipse.jst.jee.server:day032_E"/><Context docBase="nutritional-shopping-mall" path="/nutritional-shopping-mall-web" reloadable="true" source="org.eclipse.jst.jee.server:nutritional-shopping-mall"/></Host>
     </Engine>
   </Service>
 </Server>
